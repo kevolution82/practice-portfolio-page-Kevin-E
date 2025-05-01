@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .tagline {
+    font-style: italic;
+    margin-top: 5px;
+  }
+  
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-pic {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .bio {
+    max-width: 600px;
+    padding: 0 20px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    padding: 5px 0;
+    font-weight: bold;
+  }
+  
+  .image-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+
+  .image-grid img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .wide-graphic {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .wide-graphic-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .wide-graphic-row img {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  }
+
+  footer {
+    background-color: #eee;
+    padding: 15px;
+    font-size: 0.9em;
+  }
+  
